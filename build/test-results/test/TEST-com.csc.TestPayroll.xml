@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestPayroll" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-09-17T20:39:58" hostname="DESKTOP-H3UO8NH" time="0.045">
+  <properties/>
+  <testcase name="testSocSecIfGrossPayIsHundred()" classname="com.csc.TestPayroll" time="0.021"/>
+  <testcase name="testNetPayIfAllTaxesZeroAndMoreThanThreeDependWithHundredGross()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testFedTaxEqualsZeroIfGrossPayZero()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testGrossIFHoursEqualsEighty()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testNetPayIfTaxesZeroAndLessThanThreeDependWithHundredGross()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testGrossIFHoursEqualsThirtyFive()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testInsEqualsFifteenIfDependtwo()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testInsEqualsThirtyFiveIfDependThree()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testStateTaxIfGrossPayIsEighty()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testFedTaxIfGrossPayIsHundredTwenty()" classname="com.csc.TestPayroll" time="0.0"/>
+  <testcase name="testSocSecEqualsZeroIfGrossPayZero()" classname="com.csc.TestPayroll" time="0.0"/>
+  <testcase name="testGrossZeroIFHoursZero()" classname="com.csc.TestPayroll" time="0.001"/>
+  <testcase name="testStateTaxEqualsZeroIfGrossPayZero()" classname="com.csc.TestPayroll" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
