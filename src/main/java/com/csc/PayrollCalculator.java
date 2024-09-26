@@ -7,9 +7,9 @@ import java.util.ArrayList;
 public class PayrollCalculator{
 
 
-    public double grossPay(double hoursNum)
+    public double grossPay(double hoursNum, double basePay)
     {  
-        double basePay = 16.78;
+        
         if (hoursNum <= 40) {
             return hoursNum * basePay;
         }

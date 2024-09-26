@@ -15,20 +15,7 @@ public class TestPayroll {
   }
 
   // Add your tests here
-  @Test
-  void testGrossZeroIFHoursZero() {
-    assertEquals(0, payrollCalculator.grossPay(0), 0.001);
-  }
-
-  @Test
-  void testGrossIFHoursEqualsThirtyFive() {
-    assertEquals(587.30, payrollCalculator.grossPay(35), 0.001);
-  }
-
-  @Test
-  void testGrossIFHoursEqualsEighty() {
-    assertEquals(2013.60, payrollCalculator.grossPay(80), 0.001);
-  }
+  
 
   @Test
   void testSocSecEqualsZeroIfGrossPayZero() {

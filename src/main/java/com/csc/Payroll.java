@@ -23,18 +23,23 @@ public class Payroll {
     System.out.println("How many dependents do you have?");
     int dependents = input.nextInt();
 
+    System.out.println("What is your payrate?");
+    double payrate = input.nextDouble();
+
+    while (payrate < 1) {
+      System.out.println("Please enter a payrate greater than 0");
+      payrate = input.nextInt();
+  }
+
     System.out.println("Payroll Stub" + "\n");
 
     PayrollCalculator payrollCalculator = new PayrollCalculator();
 
-    double grossPay = payrollCalculator.grossPay(hoursNum);
+    double grossPay = payrollCalculator.grossPay(hoursNum, payrate);
 
     System.out.println("Hours: " + hoursNum);
     System.out.println("Rate: 16.78 $/hr");
     System.out.println("Gross: $" + nf.format(grossPay));
-
-    
-    
 
     double socSec = payrollCalculator.socialTax(grossPay);
     double fedTax = payrollCalculator.federalTax(grossPay);
